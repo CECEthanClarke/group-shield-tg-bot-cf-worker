@@ -3,8 +3,8 @@ Group Shield is an open-source, serverless group member verification bot that he
 
 **Example Bot**: [@GroupShieldTGBot](https://t.me/GroupShieldTGBot)
 
-![screenshot](https://raw.githubusercontent.com/CECEthanClarke/group-shield-tg-bot-cf-worker/refs/heads/main/other/image.jpg)
-![screenshot](https://raw.githubusercontent.com/CECEthanClarke/group-shield-tg-bot-cf-worker/refs/heads/main/other/image2.jpg)
+![screenshot](https://raw.githubusercontent.com/CECEthanClarke/group-shield-tg-bot-cf-worker/refs/heads/main/other/image.png)
+![screenshot](https://raw.githubusercontent.com/CECEthanClarke/group-shield-tg-bot-cf-worker/refs/heads/main/other/image2.png)
 
 ---
 
