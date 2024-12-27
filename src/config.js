@@ -1,0 +1,11 @@
+
+const config = {
+  GROUP_KV_PREFIX: 'GROUP:',
+  QUIZ_KV_PREFIX: 'QUIZ:',
+  SCHEDULE_LOCK_KV_KEY: 'schedule',
+  KV_EXPIRATION_TTL: 86400,
+  VERIFICATION_EXPIRATION_SECONDS: 120,
+  RE_JOIN_SECONDS: 120
+};
+
+export default config;
