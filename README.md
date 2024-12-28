@@ -1,8 +1,6 @@
 # Group Shield Telegram Bot  
 Group Shield is an open-source, serverless group member verification bot that helps you verify users reliably, quickly, and conveniently.
 
-**Example Bot**: [@GroupShieldTGBot](https://t.me/GroupShieldTGBot)
-
 ![screenshot](https://raw.githubusercontent.com/CECEthanClarke/group-shield-tg-bot-cf-worker/refs/heads/main/other/image.png)
 ![screenshot](https://raw.githubusercontent.com/CECEthanClarke/group-shield-tg-bot-cf-worker/refs/heads/main/other/image2.png)
 
