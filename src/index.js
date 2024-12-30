@@ -228,14 +228,9 @@ async function processUpdate(env, update) {
 
 async function processGroupKV(env) {
 	try {
-		const lock = await env.MY_KV.get(config.SCHEDULE_LOCK_KV_KEY);
-		if (lock) {
-			return { lock: true };
-		}
 		console.log("process group kv...");
-		try {
-			await env.MY_KV.put(config.SCHEDULE_LOCK_KV_KEY, 'lock', { expirationTtl: 180 });
-			const items = await env.MY_KV.list({ prefix: config.GROUP_KV_PREFIX });
+		
+		const items = await env.MY_KV.list({ prefix: config.GROUP_KV_PREFIX });
 			console.log(items);
 			if (items) {
 				if (items.keys) {
@@ -262,13 +257,12 @@ async function processGroupKV(env) {
 					}
 				}
 			}
-		} finally {
-			await env.MY_KV.delete(config.SCHEDULE_LOCK_KV_KEY);
-		}
-		return { lock: false };
+
+		return true;
 	} catch (e) {
 		console.log(e);
 	}
+	return false;
 }
 
 export default {
